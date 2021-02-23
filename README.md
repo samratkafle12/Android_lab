@@ -147,3 +147,166 @@ https://www.jianshu.com/p/d48168c7ed2d?from=timeline
 	自定义界面功能。
 	实验报告提交内容：1）结合系统界面（截图）介绍APP功能；2）核心实现代码（Java或Kotlin代码）和布局文件等。
 
+
+
+
+
+
+
+
+
+
+
+
+
+//translation
+
+Experiment 1: Android Basic Programming Verification
+1. Objective of the experiment
+ master Android development environment set up and the Android Studio's use;
+ understand the Android project file directory structure in the Studio;
+ master design and coding method based on the Activity of the Android APP, according to the requirements to complete the APP interface and data transfer function between the Activity.
+ learn basic programming environment, on the phone app to realize common teaching applets, verify the Android's basic programming.
+2. Experimental content
+ Android Studio installation and basic method of use;
+ the helloworld by programming
+ the white chickens money by programming
+ programming and the prime Numbers from 1 to 100
+ ask daffodil number by programming
+Three, experimental requirements
+ implement the basic function of the above requirements.
+ experiment report submitted content: 1) combining with the system interface (screenshot) introduces the APP features; 2) Core implementation code (Java or Kotlin code) and layout files, etc.
+
+Experiment 2: Activity
+1. Objective of the experiment
+ master design and coding method based on the Activity of the Android APP, according to the requirements to complete the APP interface and data transfer function between the Activity.
+2. Experimental content
+ designed to achieve a true or false question bank Android APP, its basic features include: 1) shows the first title since the start of interface, as shown in figure 1-1, interface is included in the subject content, the "right" and "wrong", "check answers" and the "next" button. Click "correct" or "wrong" to indicate the answer given, and click "next" to enter the next judgment question; 2) After the user clicks "View" the answer, the interface as shown in Fig. 1-2 will display the prompt message "Are you sure to see the answer?" And the "Answer" button. After the user clicks "Answer", the interface displays the standard answer of the question, as shown in Figure 1-3; 3) If the user does not select the answer in the question interface but directly enters the answer interface and sees the answer, and then returns to the question interface again (Figure 1) and clicks the "Correct" or "Wrong" button, the interface will prompt a message, as shown in Figure 1-4: "Cheating is wrong".
+
+Figure 1-1. Title interface
+Figure 1-2. View the "Answer" screen
+
+Figure 1-3 shows the answer
+Figure 1-4. Interface of prompt information
+Three, experimental requirements
+ implement the basic function of the above requirements. Note: The content of the question bank can be written in code. On this basis, the interface can be further optimized and other features can be added.
+ experiment report submitted content: 1) combining with the system interface (screenshot) introduces the APP features; 2) Core implementation code (Java or Kotlin code) and layout files, etc.
+Experiment 3 Android UI
+1. Objective of the experiment
+ master based on the technology of UI controls, layout, and the Activity of the Android APP interface implementation technology, and based on the Android APP UI realization method of the Studio.
+2. Experimental content
+ implementation show product list APP interface, as shown in figure 2-1. Click on a product, you can display the details of the product.
+
+Three, experimental requirements
+ implement the basic function of the above requirements. Description: Product content can be written in code. On this basis, the interface can be further optimized and other features can be added.
+ experiment report submitted content: 1) combining with the system interface (screenshot) introduces the APP features; 2) Core implementation code (Java or Kotlin code) and layout files, etc.
+
+
+
+Experiment 4: Fragment
+1. Objective of the experiment
+ to master the use of fragments, realize how to more reasonable use of large screen tablet space.
+ master fragments of life cycle.
+2. Experimental content
+ implementation day elder brother video tutorial
+ reference website: https://www.jianshu.com/p/a4c51309bc19, to understand the knowledge, and realize the sample code;
+A) The process of static loading
+• Define an XML layout file for the Fragment
+• Customize the Fragment class, which extends the Fragment class or its subclasses, and implements the onCreate() method, which loads the layout file with inflater.inflate and returns its View
+• Set the name property of < Fragment > to the fully qualified class name, package name. Fragment, in the layout file of the Activity in which the Fragment is loaded
+• Finally, call setContentView() in the Activity to load the layout file
+B) Dynamic Fragment Loading Process:
+• get FragmentManager object, through getSupportFragmentManager ()
+• Get the FragmentTransaction object by fm.beginTransaction()
+• Call add() or repalce() to load the Fragment;
+• Finally, call the commit() method to commit the transaction
+C) Pass data to the Fragment
+• Create a Bundle in your Activity and pass the Bundle to your Fragment by calling setArguments() of your Fragment instance
+• The Fragment calls getArguments() to get the Bundle object and then parses it
+D) Pass data to the Activity
+• Define an internal callback interface in the Fragment and have the Activity containing the Fragment implement the callback interface
+• Fragments pass data through callback interfaces
+
+
+Three, experimental requirements
+ implement the basic function of the above requirements. On this basis, the interface can be further optimized and other features can be added.
+ experiment report submitted content: 1) combining with the system interface (screenshot) introduces the APP features; 2) Core implementation code (Java or Kotlin code) and layout files, etc.
+Experiment 5 Intent
+1. Objective of the experiment
+ master Intent usage.
+2. Experimental content
+Reference web site https://www.jianshu.com/p/67d99a82509b, complete the following experiment
+• Call the dialer
+• Send SMS or MMS messages
+• Open a web page through a browser
+• Send an email
+• Display map and path planning
+• Play Multimedia
+• Select images
+• take photos
+• Get and cut images
+• Open up the mobile app market
+• Setup procedures
+• Uninstall program
+• Enter the Settings screen
+
+Three, experimental requirements
+ implement the basic function of the above requirements. Customize the interface and functionality.
+ experiment report submitted content: 1) combining with the system interface (screenshot) introduces the APP features; 2) Core implementation code (Java or Kotlin code) and layout files, etc.
+
+Experiment 6 Broadcast
+1. Objective of the experiment
+ master based on the technology of UI controls, layout, and the Activity of the Android APP interface implementation technology, and based on the Android APP UI realization method of the Studio.
+2. Experimental content
+https://www.jianshu.com/p/fecc4023abb8
+ implementation show product list APP interface, as shown in figure 2-1. Click on a product, you can display the details of the product.
+
+Three, experimental requirements
+ implement the basic function of the above requirements. Description: Product content can be written in code. On this basis, the interface can be further optimized and other features can be added.
+ experiment report submitted content: 1) combining with the system interface (screenshot) introduces the APP features; 2) Core implementation code (Java or Kotlin code) and layout files, etc.
+The experiment 7 Service
+1. Objective of the experiment
+ master Service.
+2. Experimental content
+
+https://www.jianshu.com/p/d48168c7ed2d? from=timeline
+
+.
+
+Three, experimental requirements
+ implement the basic function of the above requirements. Description: Product content can be written in code. On this basis, the interface can be further optimized and other features can be added.
+ experiment report submitted content: 1) combining with the system interface (screenshot) introduces the APP features; 2) Core implementation code (Java or Kotlin code) and layout files, etc.
+Experiment 8 Data storage and sharing
+1. Objective of the experiment
+ master Android network database connection.
+ master android webService.
+2. Experimental content
+ Jdbc: https://blog.csdn.net/weixin_34326179/article/details/89596181.
+ Webservice:https://www.runoob.com/w3cnote/android-tutorial-webservice.html
+
+
+Three, experimental requirements
+ implement the basic function of the above requirements. Customize the interface and functionality.
+ experiment report submitted content: 1) combining with the system interface (screenshot) introduces the APP features; 2) Core implementation code (Java or Kotlin code) and layout files, etc.
+Experiment 9 Comprehensive development
+1. Objective of the experiment
+ master cooperation to develop the process of the whole system.
+2. Experimental content
+ implement a study plan and execute reporting system of the app.
+ member login function
+ study plan issued task to a certain members, including printer operation plan, the list contains qr code
+ implementation code report the learning task completion
+ data uploaded by way of webservive and JDBC
+ statistical classification task using time and bar graph display
+ can receive E-mail
+ can batch send email
+ can receive and send messages
+ implement a BBS, can post; reply
+ implement a question bank, including judgment, radio, multiple choice, programming, can be set volume, can automatically change the paper grades
+ can submit questions
+
+Three, experimental requirements
+ implement the basic function of the above requirements.
+ custom interface functions.
+ experiment report submitted content: 1) combining with the system interface (screenshot) introduces the APP features; 2) Core implementation code (Java or Kotlin code) and layout files, etc.
+
